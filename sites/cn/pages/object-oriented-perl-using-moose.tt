@@ -44,7 +44,7 @@ use Moose;
 
 这些代码保存在somedir/lib/Perlson.pm。
 
-为了创建一个<hl>类</hl>，你要做的是根据类名创建一个<hl>pachage</hl>，在包中调用<hl>user Moose;</hl>，在文件结尾放置一个真值，并将文件名保存成跟包名相同(大小写敏感)，且以 .pm 作为扩展名。
+为了创建一个<hl>类</hl>，你要做的是根据类名创建一个<hl>package</hl>，在包中调用<hl>user Moose;</hl>，在文件结尾放置一个真值，并将文件名保存成跟包名相同(大小写敏感)，且以 .pm 作为扩展名。
 
 在加载Moose时就自动设置了<hl>use strict</hl> 和 <hl>use warnings</hl>。这样很方便，但是请注意不要在非Moose的代码中因为习惯而忘了写它们。
 
